@@ -74,13 +74,13 @@ export const Projects = () => {
                       id="pills-tab"
                     >
                       <Nav.Item>
-                        <Nav.Link eventKey="first">The Members</Nav.Link>
+                        <Nav.Link eventKey="first">Members</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="second">The Projects</Nav.Link>
+                        <Nav.Link eventKey="second">Projects</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="third">The Collaborators</Nav.Link>
+                        <Nav.Link eventKey="third">Collaborators</Nav.Link>
                       </Nav.Item>
                     </Nav>
                     <Tab.Content

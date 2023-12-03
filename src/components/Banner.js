@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/img/header-img.svg";
+import headerImg from "../assets/img/atom.png";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -75,13 +75,9 @@ export const Banner = () => {
                     </span>
                   </h1>
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book.
+                  We're a team formed by three students aiming to dive into diverse competitions. Our goal is to spark the interest of fellow students in joining these exciting challenges. If you're someone eager to explore new horizons, we'd love to have you on our team!
                   </p>
-                  <button onClick={() => console.log("connect")}>
+                  <button onClick={() => window.location.href = '#connect'}>
                     Let’s Connect <ArrowRightCircle size={25} />
                   </button>
                 </div>
